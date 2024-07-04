@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Task 1</a>
+<a href="index2.html">Task 2</a>
+<a href="index3.html">Task 3</a>
+<a href="index4.html">Task 4</a>
+<br>
+    <form name="mylogin" action="validatepassword.php" method="post">
+        <table>
+            <tr>
+                <th colspan="2"><center>Novell Services Login</center></th>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="Username" size="30"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" size="30"></td>
+            </tr>
+            <tr>
+                <td>City of Employment</td>
+                <td><input type="text" name="City" size="30"></td>
+            </tr>
+            <tr>
+                <td>Web server:</td>
+                <td>
+                    <select name="webserv" size="1">
+                        <option value="default" selected>--- Choose a server ---</option>
+                        <option value="Server 1">Server 1</option>
+                        <option value="Server 2">Server 2</option>
+                        <option value="Server 3">Server 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <br>
+                <td>Please specify your role:</td>
+                <td>
+                    <input type="radio" name="role" value="Admin"> Admin <br>
+                    <input type="radio" name="role" value="Engineer"> Engineer <br>
+                    <input type="radio" name="role" value="Manager"> Manager <br>
+                    <input type="radio" name="role" value="Guest"> Guest <br>
+                </td>
+            </tr>
+            <tr>
+                <br>
+                <td>Single Sign-on to the following:</td>
+                <td>
+                    <input type="checkbox" name="service" value="Mail"> Mail <br>
+                    <input type="checkbox" name="service" value="Payroll"> Payroll <br>
+                </td>
+            </tr>
+            <tr>
+                <br>
+                <td colspan="2">
+                    <center>
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset">
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
